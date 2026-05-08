@@ -62,8 +62,19 @@
         <label for="for-email">Email:</label>
         <input id="for-email" type="email" name="user-email" placeholder="Your Email">
         <br>
+        <lebel for="for-rating">Rating:</label>
+            <select name="rating" id="for-rating">
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Star</option>
+            </select>
+
         <label for="review">Review:</label>
         <Textarea id="review" name="user-review" placeholder="Your Review" rows="4" cols='30'></Textarea>
+        <button type="submit">Submit Review</button>
+        <button type="reset">Reset</button>
     </form>
     <hr>
 {% comment %} This is the social media list {% endcomment %}
